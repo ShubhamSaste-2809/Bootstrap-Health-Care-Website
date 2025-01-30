@@ -1,0 +1,235 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+.snip1217 {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.snip1217 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1217 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 1.5em;
+  padding: 0;
+}
+.snip1217 a {
+  padding: 0.3em 0;
+  color: rgb(6, 6, 6);
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+}
+.snip1217 a:before,
+.snip1217 a:after {
+  height: 3px;
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  background-color:#009dff;
+  width: 0;
+}
+.snip1217 a:before {
+  top: 0;
+  left: 0;
+}
+.snip1217 a:after {
+  bottom: 0;
+  right: 0;
+}
+.snip1217 a:hover,
+.snip1217 .current a {
+  color: #009dff;
+}
+.snip1217 a:hover:before,
+.snip1217 .current a:before,
+.snip1217 a:hover:after,
+.snip1217 .current a:after {
+  width: 100%;
+}
+.hero{
+    background-image: url(./images/banner2.png);
+    height: 90vh;
+    object-fit: cover;
+    background-position: center;
+    position: relative;
+}
+.he1{
+    font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bolder;
+  position: absolute;
+  top: 25%;
+  font-size: 45px;
+  left: 15%;
+}
+.he2{
+    font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  position: absolute;
+  top: 38%;
+  left: 15%;
+}
+.he3{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 53%;
+  left: 15%;
+}
+.bt1{
+    position: absolute;
+    top: 74%;
+    left: 15%;
+}
+.care{
+    background-color:#83c4ff;
+}
+.ca{
+    background-color: #5db2ff;
+}
+.caree{
+    margin-bottom: 100px;
+}
+u{
+    color: #009dff;
+}
+.ser{
+    margin-bottom: 130px;
+}
+.our{
+   padding: 20px;
+}
+.over{
+    overflow: hidden;
+}
+.img{
+    transition: transform 1s;
+}
+.img:hover{
+    transform: scale(1.2);
+}
+.serv{
+    margin-bottom: 130px;
+}
+.bac{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/1\ \(2\).png);
+    height: 65vh;
+    object-fit: cover; 
+    position: relative;
+}
+.bac1{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/2\ \(2\).png);
+    height: 65vh;
+    object-fit: cover; 
+    position: relative;
+}
+.aa{
+    font-size: 15px;
+    position: absolute;
+    top: 42%;
+    left: 5%;
+}
+.slide{
+    margin-bottom: 120px;
+}
+.img-1{
+  height: 90px;
+  width: 90px;
+  background-color: #009dff;
+  border-radius: 50%;
+}
+
+.buss{
+  margin-bottom: 130px;
+}
+.ex{
+  margin-bottom: 90px;
+}
+.imgo{
+  overflow: hidden;
+}
+.ddd{
+  transition: transform 1s;
+}
+.ddd:hover{
+  transform: scale(1.1);
+}
+.exper{
+  margin-bottom: 130px;
+}
+.fff{
+  background-image: linear-gradient(rgba(109, 180, 247, 0.5),rgb(171, 212, 250,0.5)), url(./images/emergency-1.png);
+  height: 30vh;
+  background-size: cover; 
+  position: relative;
+}
+.he4{
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+.bt4{
+  position: absolute;
+  top: 50%;
+}
+
+
+
+.fff1{
+  background-image:linear-gradient(rgba(80, 166, 246, 0.5),rgba(85, 167, 244, 0.5)), url(./images/emergency-2.png);
+  height: 30vh;
+  background-size: cover; 
+  position: relative;
+}
+.foot{
+  padding: 100px;
+}
+.ic{
+  font-size: 30px;
+}
+.mm{
+  background-color: black;
+  padding: 30px;
+}
+@media only screen and (min-width:768px){
+  .he1{
+    font-size: 75px;
+  }
+  .bt1{
+    top: 64%;
+  }
+  .aa{
+    font-size: 15px;
+    position: absolute;
+    top: 42%;
+    left: 15%;
+}
+
+}
+@media only screen and (min-width:992px){
+  .he1{
+    font-size: 75px;
+  }
+  .bt1{
+    top: 64%;
+  }
+  .aa{
+    font-size: 23px;
+    position: absolute;
+    top: 42%;
+    left: 24%;
+}
+}
+
+
+
