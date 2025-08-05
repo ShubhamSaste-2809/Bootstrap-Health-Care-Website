@@ -1,0 +1,1 @@
+"A responsive and user-friendly healthcare website designed to provide information, appointment booking, and access to medical services online. Built with modern web technologies for improved accessibility and user experience."
